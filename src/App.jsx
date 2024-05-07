@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className= "bg-slate-400">
-      this is my portfolio
+      this is my portfolio ggghjgjg
 
     </div>
   )
