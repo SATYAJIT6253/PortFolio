@@ -6,9 +6,9 @@ import Navbar from './Navbar/Navbar'
 import Home from './Pages/Home'
 import About from './Pages/About'
 import { Route,Routes } from 'react-router-dom';
-
+<script src="https://cdn.tailwindcss.com"></script>
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <div>

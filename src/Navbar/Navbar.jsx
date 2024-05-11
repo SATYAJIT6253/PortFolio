@@ -1,16 +1,20 @@
 import React, { useState } from "react";
 import { RxCross2 } from "react-icons/rx";
 import { IoMenuSharp } from "react-icons/io5";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import Logo from "../assets/Logo.jpg";
 function Navbar() {
   const [active, setactive] = useState(true);
+  const navigate = useNavigate();
   function MenuHandeler() {
     setactive(!active);
   }
+  function clickhandlere() {
+      navigate("/");
+  }
   return (
     <nav className="p-5 my-0 flex justify-between items-center mt-5">
-      <a href="" id="brand" className="flex gap-2 items-center">
+      <a href="" id="brand" className="flex gap-2 items-center" onClick={clickhandlere}>
         <img src={Logo} alt="" className="object-cover max-w-14 max-h-14" />
       </a>
       <div className="hidden lg:flex gap-12">
@@ -59,7 +63,7 @@ function Navbar() {
         <>
           <div
             id="nav-dioluge"
-            className=" fixed inset-0 z-10 lg:hidden"
+            className=" fixed inset-0 z-10 bg-gray-700 lg:hidden"
           >
             <button className="text-white w-full flex items-end justify-end mr-3" onClick={MenuHandeler}>
               <RxCross2 className="text-white w-14 h-14 px-3"/>
