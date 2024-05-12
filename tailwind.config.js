@@ -8,7 +8,8 @@ export default {
     extend: {
       colors:{
         'color-seconary' : '#19376d'
-      }
+      },
+      
     },
   },
   plugins: [],
