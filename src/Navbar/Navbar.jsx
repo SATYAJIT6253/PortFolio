@@ -12,6 +12,11 @@ function Navbar() {
   function clickhandlere() {
       navigate("/");
   }
+  function ContactHandeler()
+  {
+    console.log("clicked");
+    navigate("/contactsection")
+  }
   return (
     <nav className="p-5 my-0 flex justify-between items-center mt-5">
       <a href="" id="brand" className="flex gap-2 items-center" onClick={clickhandlere}>
@@ -48,7 +53,9 @@ function Navbar() {
         </NavLink>
       </div>
       <button className="hidden lg:flex items-center  bg- border-gray-400 px-6 py-2
-       font-bold text-white transition-all duration-200 bg-gray-900 border-2 border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-600 rounded">
+       font-bold text-white transition-all duration-200 bg-gray-900 
+       border-2 border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2
+        focus:ring-gray-900 hover:bg-gray-600 rounded" onClick={ContactHandeler}>
        
         <span className="text-white">Contact Me</span>
       </button>
@@ -102,8 +109,10 @@ function Navbar() {
             </div>
             
             <button className="lex items-center  bg- border-gray-400 px-6 py-2
-       font-bold text-white transition-all duration-200 bg-gray-900 border-2 border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-600 rounded">
-              <span className="text-white">Hire Me</span>
+       font-bold text-white transition-all duration-200 bg-gray-900 border-2
+        border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900
+         hover:bg-gray-600 rounded" onClick={ContactHandeler}>
+              <span className="text-white">Contact Me</span>
             </button>
           </div>
 
