@@ -7,11 +7,14 @@ export default {
   theme: {
     extend: {
       colors:{
-        'color-seconary' : '#19376d'
+        'color-seconary' : '#19376d',
+        'card-color': '#333333'
       },
-      
+      aspectRatio: {
+        '4/3': '4 / 3',
+      },
     },
   },
-  plugins: [],
+  plugins: [require('@xpd/tailwind-3dtransforms')],
 }
 

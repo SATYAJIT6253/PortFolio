@@ -7,6 +7,7 @@ import Home from './Pages/Home'
 import About from './Pages/About'
 import { Route,Routes } from 'react-router-dom';
 import Contact from './Pages/Contact'
+import Project from './Pages/Project'
 <script src="https://cdn.tailwindcss.com"></script>
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
        <Route path ="/" element = {<Home/>}/>
        <Route path ="/about" element ={<About/>}/>
        <Route path="/contactsection" element={<Contact/>}></Route>
+       <Route path ="/project" element = {<Project/>}/>
       </Routes>
     </div>
   )

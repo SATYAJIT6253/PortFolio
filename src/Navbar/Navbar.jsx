@@ -18,7 +18,7 @@ function Navbar() {
     navigate("/contactsection")
   }
   return (
-    <nav className="p-5 my-0 flex justify-between items-center mt-5">
+    <nav className="px-8 my-0 flex justify-between items-center mt-5 lg:px-12">
       <a href="" id="brand" className="flex gap-2 items-center" onClick={clickhandlere}>
         <img src={Logo} alt="" className="object-cover max-w-14 max-h-14" />
       </a>
@@ -38,7 +38,7 @@ function Navbar() {
           About Me
         </NavLink>
         <NavLink
-          to="/"
+          to="/project"
           style={{ textDecoration: "none" }}
           className="text-xl  text-white px-2 py-2  hover:border border-red-400 rounded-lg"
         >
@@ -93,9 +93,10 @@ function Navbar() {
                 About Me
               </NavLink>
               <NavLink
-                to="/"
+                to="/project"
                 style={{ textDecoration: "none" }}
                 className="text-xl  text-white px-4 py-4  hover:border border-red-400 rounded-lg"
+                onClick={MenuHandeler}
               >
                 Projects
               </NavLink>

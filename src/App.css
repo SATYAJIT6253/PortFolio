@@ -8,7 +8,9 @@
     background-size: 300%;
     background-image: var(--gradient);
     animation: bg-animation 25s infinite;
-    background: rgb(4,21,45);
+    /* background: rgb(4,21,45); */
+    background: rgb(128,0,128);
+    background: linear-gradient(35deg, rgba(128,0,128,1) 15%, rgba(4,21,45,1) 42%);
    
   }
   @keyframes bg-animation {
