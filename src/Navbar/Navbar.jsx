@@ -14,8 +14,8 @@ function Navbar() {
   }
   function ContactHandeler()
   {
-    console.log("clicked");
-    navigate("/contactsection")
+    navigate("/contactsection");
+    setactive(!active);
   }
   return (
     <nav className="px-8 my-0 flex justify-between items-center mt-5 lg:px-12">
@@ -115,6 +115,7 @@ function Navbar() {
          hover:bg-gray-600 rounded" onClick={ContactHandeler}>
               <span className="text-white">Contact Me</span>
             </button>
+            
           </div>
 
         </>
