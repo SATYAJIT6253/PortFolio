@@ -104,6 +104,7 @@ function Navbar() {
                 to="/resume"
                 style={{ textDecoration: "none" }}
                 className="text-xl  text-white px-4 py-4  hover:border border-red-400 rounded-lg"
+                onClick={MenuHandeler}
               >
                 Resume
               </NavLink>
