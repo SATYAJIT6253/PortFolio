@@ -45,7 +45,7 @@ function Navbar() {
           Projects
         </NavLink>
         <NavLink
-          to="/"
+          to="/resume"
           style={{ textDecoration: "none" }}
           className="text-xl  text-white px-2 py-2  hover:border border-red-400 rounded-lg"
         >
@@ -101,7 +101,7 @@ function Navbar() {
                 Projects
               </NavLink>
               <NavLink
-                to="/"
+                to="/resume"
                 style={{ textDecoration: "none" }}
                 className="text-xl  text-white px-4 py-4  hover:border border-red-400 rounded-lg"
               >

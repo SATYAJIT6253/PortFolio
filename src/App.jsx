@@ -8,6 +8,7 @@ import About from './Pages/About'
 import { Route,Routes } from 'react-router-dom';
 import Contact from './Pages/Contact'
 import Project from './Pages/Project'
+import Resume from './Pages/Resume'
 <script src="https://cdn.tailwindcss.com"></script>
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
        <Route path ="/about" element ={<About/>}/>
        <Route path="/contactsection" element={<Contact/>}></Route>
        <Route path ="/project" element = {<Project/>}/>
+       <Route path="/resume" element={<Resume/>}/>
       </Routes>
     </div>
   )
