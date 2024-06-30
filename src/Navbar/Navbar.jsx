@@ -10,16 +10,20 @@ function Navbar() {
     setactive(!active);
   }
   function clickhandlere() {
-      navigate("/");
+    navigate("/");
   }
-  function ContactHandeler()
-  {
+  function ContactHandeler() {
     navigate("/contactsection");
     setactive(!active);
   }
   return (
-    <nav className="px-8 my-0 flex justify-between items-center mt-5 lg:px-12">
-      <a href="" id="brand" className="flex gap-2 items-center" onClick={clickhandlere}>
+    <nav className="px-8 my-0 flex justify-between items-center mt-8 lg:px-12">
+      <a
+        href=""
+        id="brand"
+        className="flex gap-2 items-center"
+        onClick={clickhandlere}
+      >
         <img src={Logo} alt="" className="object-cover max-w-14 max-h-14" />
       </a>
       <div className="hidden lg:flex gap-12">
@@ -52,11 +56,13 @@ function Navbar() {
           Resume
         </NavLink>
       </div>
-      <button className="hidden lg:flex items-center  bg- border-gray-400 px-6 py-2
+      <button
+        className="hidden lg:flex items-center  bg- border-gray-400 px-6 py-2
        font-bold text-white transition-all duration-200 bg-gray-900 
        border-2 border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2
-        focus:ring-gray-900 hover:bg-gray-600 rounded" onClick={ContactHandeler}>
-       
+        focus:ring-gray-900 hover:bg-gray-600 rounded"
+        onClick={ContactHandeler}
+      >
         <span className="text-white">Contact Me</span>
       </button>
       {active ? (
@@ -70,12 +76,29 @@ function Navbar() {
         <>
           <div
             id="nav-dioluge"
-            className=" fixed inset-0 z-10 bg-gray-700 lg:hidden"
+            className="fixed inset-0 z-10 bg-gray-700 lg:hidden"
           >
-            <button className="text-white w-full flex items-end justify-end mr-3" onClick={MenuHandeler}>
-              <RxCross2 className="text-white w-14 h-14 px-3"/>
-            </button>
-            <div className="flex flex-col mt-20">
+            <div className="flex mb-4">
+              <a
+                href=""
+                id="brand"
+                className="flex gap-2 items-center"
+                onClick={clickhandlere}
+              >
+                <img
+                  src={Logo}
+                  alt=""
+                  className="object-cover max-w-14 max-h-14 mt-10 ml-6"
+                />
+              </a>
+              <button
+                className="text-white w-full flex items-end justify-end mr-6"
+                onClick={MenuHandeler}
+              >
+                <RxCross2 className="text-white w-14 h-14 px-2" />
+              </button>
+            </div>
+            <div className="flex flex-col ml-2">
               <NavLink
                 to="/"
                 style={{ textDecoration: "none" }}
@@ -109,16 +132,17 @@ function Navbar() {
                 Resume
               </NavLink>
             </div>
-            
-            <button className="lex items-center  bg- border-gray-400 px-6 py-2
+
+            <button
+              className="flex items-center  bg- border-gray-400 px-6 py-2
        font-bold text-white transition-all duration-200 bg-gray-900 border-2
-        border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900
-         hover:bg-gray-600 rounded" onClick={ContactHandeler}>
+        border-transparent mt-3 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900
+         hover:bg-gray-600 rounded"
+              onClick={ContactHandeler}
+            >
               <span className="text-white">Contact Me</span>
             </button>
-            
           </div>
-
         </>
       )}
     </nav>
