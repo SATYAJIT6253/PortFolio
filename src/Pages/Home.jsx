@@ -1,6 +1,5 @@
 import React from "react";
 import Profile from "../assets/Profile.png";
-<script src="https://cdn.tailwindcss.com"></script>
 function Home() {
   return (
     <div className="text-white flex flex-col lg:flex-row place-content-around">
