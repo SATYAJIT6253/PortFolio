@@ -17,7 +17,7 @@ function Navbar() {
     setactive(!active);
   }
   return (
-    <nav className="px-8 my-0 flex justify-between items-center mt-8 lg:px-12">
+    <nav className="px-8 my-0 mb-4 flex justify-between items-center mt-6 lg:px-12">
       <a
         href=""
         id="brand"
@@ -88,21 +88,21 @@ function Navbar() {
                 <img
                   src={Logo}
                   alt=""
-                  className="object-cover max-w-14 max-h-14 mt-10 ml-6"
+                  className="object-cover max-w-14 max-h-14 mt-6 ml-8"
                 />
               </a>
               <button
                 className="text-white w-full flex items-end justify-end mr-6"
                 onClick={MenuHandeler}
               >
-                <RxCross2 className="text-white w-14 h-14 px-2" />
+                <RxCross2 className="text-white w-14 h-12 px-2" />
               </button>
             </div>
             <div className="flex flex-col ml-2">
               <NavLink
                 to="/"
                 style={{ textDecoration: "none" }}
-                className="text-xl  text-white px-4 py-4  hover:border border-red-400 rounded-lg"
+                className="text-xl  text-white px-6 py-4  hover:border border-red-400 rounded-lg"
                 onClick={MenuHandeler}
               >
                 Home
@@ -110,7 +110,7 @@ function Navbar() {
               <NavLink
                 to="/about"
                 style={{ textDecoration: "none" }}
-                className="text-xl  text-white px-4 py-4  hover:border border-red-400 rounded-lg"
+                className="text-xl  text-white px-6 py-4  hover:border border-red-400 rounded-lg"
                 onClick={MenuHandeler}
               >
                 About Me
@@ -118,7 +118,7 @@ function Navbar() {
               <NavLink
                 to="/project"
                 style={{ textDecoration: "none" }}
-                className="text-xl  text-white px-4 py-4  hover:border border-red-400 rounded-lg"
+                className="text-xl  text-white px-6 py-4  hover:border border-red-400 rounded-lg"
                 onClick={MenuHandeler}
               >
                 Projects
@@ -126,7 +126,7 @@ function Navbar() {
               <NavLink
                 to="/resume"
                 style={{ textDecoration: "none" }}
-                className="text-xl  text-white px-4 py-4  hover:border border-red-400 rounded-lg"
+                className="text-xl  text-white px-6 py-4  hover:border border-red-400 rounded-lg"
                 onClick={MenuHandeler}
               >
                 Resume
@@ -134,7 +134,7 @@ function Navbar() {
             </div>
 
             <button
-              className="flex items-center  bg- border-gray-400 px-6 py-2
+              className="flex items-center ml-6 bg- border-gray-400 px-6 py-2
        font-bold text-white transition-all duration-200 bg-gray-900 border-2
         border-transparent mt-3 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900
          hover:bg-gray-600 rounded"
