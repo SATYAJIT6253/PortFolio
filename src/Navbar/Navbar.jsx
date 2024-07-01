@@ -17,7 +17,7 @@ function Navbar() {
     setactive(!active);
   }
   return (
-    <nav className="px-8 my-0 mb-4 flex justify-between items-center mt-6 lg:px-12">
+    <nav className="px-8 my-0 mb-4 flex justify-between items-center mt-6 lg:px-12 lg:ml-28">
       <a
         href=""
         id="brand"
