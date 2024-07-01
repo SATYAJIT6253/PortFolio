@@ -135,9 +135,9 @@ function Navbar() {
 
             <button
               className="flex items-center ml-6 bg- border-gray-400 px-6 py-2
-       font-bold text-white transition-all duration-200 bg-gray-900 border-2
-        border-transparent mt-3 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900
-         hover:bg-gray-600 rounded"
+            font-bold text-white transition-all duration-200 bg-gray-900 border-2
+            border-transparent mt-3 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900
+             hover:bg-gray-600 rounded"
               onClick={ContactHandeler}
             >
               <span className="text-white">Contact Me</span>
