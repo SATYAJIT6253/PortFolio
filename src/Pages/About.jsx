@@ -12,7 +12,7 @@ import python from '../assets/python.jpg';
 import Tailwincss from '../assets/TailwindCss.png';
 function About() {
   return (
-    <div className='text-white lg:mt-16 lg:ml-10'>
+    <div className='text-white lg:mt-10 lg:ml-10'>
       <div className='flex flex-col justify-centre items-centre gap-10 lg:flex-row '>
       <div className='flex flex-col text-center mx-10 gap-5 lg:items-center justify-center lg:px-20'>
         <h1 className='text-2xl'><span className='text-4xl text-pink-400'>A</span>bout <span className='text-4xl text-purple-900'>M</span>yself</h1>
