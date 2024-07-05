@@ -10,9 +10,10 @@ import Sass from "../assets/Sass.png";
 import cplus from "../assets/cplus.jpg";
 import python from "../assets/python.jpg";
 import Tailwincss from "../assets/TailwindCss.png";
+import { SiLeetcode } from "react-icons/si";
 function About() {
   return (
-    <div className="text-white ml-4 lg:mt-10 lg:ml-10">
+    <div className="text-white ml-4 min-h-screen lg:mt-10 lg:ml-10">
       <div className="flex flex-col justify-centre items-centre gap-10 font-serif lg:flex-row ">
         <div className="flex flex-col mx-10 gap-4 items-center justify-center lg:px-20">
           <h1 className="text-2xl">
@@ -32,7 +33,9 @@ function About() {
                 my coding Profiles are :{" "}  
                 <a href="https://leetcode.com/u/SATYAJITSAHOO/" className="text-red-500 text-xl" target="_blank">LeetCode</a>,
                 {""}
-                <a href="https://www.codechef.com/users/satya6253" className="text-red-500 text-xl" target="_blank">CodeChef</a>
+                <a href="https://www.codechef.com/users/satya6253" className="text-red-500 text-xl" target="_blank">CodeChef</a>,
+                {""}
+                <a href="https://github.com/SATYAJIT6253" className="text-red-500 text-xl" target="_blank">Github</a>
             </h3>
             <h3>
             Apart from that I have developed a solid foundation in 
