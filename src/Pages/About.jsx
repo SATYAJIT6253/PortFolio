@@ -8,9 +8,8 @@ import Nodejs from "../assets/Nodejs.jpg";
 import MongoDB from "../assets/MongoDB.jpg";
 import Sass from "../assets/Sass.png";
 import cplus from "../assets/cplus.jpg";
-import python from "../assets/python.jpg";
 import Tailwincss from "../assets/TailwindCss.png";
-import { SiLeetcode } from "react-icons/si";
+
 function About() {
   return (
     <div className="text-white ml-4 min-h-screen lg:mt-10 lg:ml-10">
