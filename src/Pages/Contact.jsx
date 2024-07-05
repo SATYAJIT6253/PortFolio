@@ -1,10 +1,11 @@
 import React from "react";
 import { CgMail } from "react-icons/cg";
-import { BsTelephone } from "react-icons/bs";
+import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
 function Contact() {
   return (
-    <div className="m-8 flex flex-col lg:flex-row lg:justify-around">
+    <div className="m-8 flex flex-col lg:flex-row lg:justify-around lg:m-20">
       <div className="flex flex-col mt-2 mb-6 lg:w-2/5 lg:mt-10 lg:p-3">
         <input
           type="text"
@@ -35,39 +36,33 @@ function Contact() {
           placeholder="Message"
         ></textarea>
         <div className="flex justify-center">
-        <button className=" bg-btn-bg w-40 h-10 rounded-full">Send</button>
+          <button className=" bg-btn-bg w-40 h-10 rounded-full">Send</button>
         </div>
-       
       </div>
 
-        {/* contact section  */}
+      {/* contact section  */}
 
       <div className="lg:w-2/5">
         <div className="w-full rounded-xl border-2 border-cnt-card-br flex flex-col place-items-center justify-center gap-2 p-6 h-40 bg-cnt-card-bg mb-4">
-          <a href="">
-            <CgMail className="size-12 text-white" />
-          </a>
-          <h1 className="text-white">abcdefgh789@gmai.com</h1>
+          <CgMail className="size-12 text-white" />
+
+          <h1 className="text-white">ssatyajit688@gmail.com</h1>
         </div>
         <div className="w-full rounded-xl border-2 border-cnt-card-br flex flex-col place-items-center justify-center gap-2 p-6 h-40 bg-cnt-card-bg mb-4">
-          <a href="">
-            <BsTelephone className="size-10 text-white" />
-          </a>
-          <h1 className="text-white">abcdefgh789@gmai.com</h1>
+          <FaWhatsapp className="size-12 text-white" />
+
+          <h1 className="text-white">+91- 8260666457</h1>
         </div>
         <div className="w-full rounded-xl border-2 border-cnt-card-br flex flex-col place-items-center justify-center gap-2 p-6 h-40 bg-cnt-card-bg mb-4">
-          <a href="">
-            <FaLinkedinIn className="size-12 text-white" />
-          </a>
-          <h1 className="text-white">abcdefgh789@gmai.com</h1>
+          <FaLinkedinIn className="size-12 text-white" />
+
+          <h1 className="text-white">satyajit sahoo</h1>
         </div>
         <div className="w-full rounded-xl border-2 border-cnt-card-br flex flex-col place-items-center justify-center gap-2 p-6 h-40 bg-cnt-card-bg mb-4">
-          <a href="">
-            <FaLinkedinIn className="size-12 text-white" />
-          </a>
-          <h1 className="text-white">abcdefgh789@gmai.com</h1>
+          <FaFacebook className="size-12 text-white" />
+
+          <h1 className="text-white">satyajit sahoo</h1>
         </div>
-        
       </div>
     </div>
   );
