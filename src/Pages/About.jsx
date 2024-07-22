@@ -50,50 +50,50 @@ function About() {
         </div>
       </div>
       {/* skill subsection */}
-      <div className="flex flex-col  mt-7  gap-4 mx-5 lg:mx-60">
+      <div className="flex flex-col  mt-7  gap-4 mx-5 justify-center items-center lg:mx-60">
         <h1 className="text-2xl text-center">
           <span className="text-4xl text-red-700">M</span>y{" "}
-          <span className="text-4xl text-red-500">T</span>ech{" "}
+          <span className="text-4xl text-red-500">T</span>ech
           <span className="text-4xl text-pink-700">S</span>tack
         </h1>
-        <div className="flex flex-wrap justify-around lg:justify-centre">
+        <div className="flex flex-wrap justify-evenly items-center gap-4 lg:justify-centre lg:w-5/6">
           <div
             className="flex flex-col justify-center text-center p-3 gap-2
             shadow-cyan-500/50"
           >
-            <img src={html} alt="" className="w-32 h-32" />
+            <img src={html} alt="" className="w-24 h-24" />
             <h3>HTML</h3>
           </div>
           <div className="flex flex-col justify-center text-center p-3 gap-2">
-            <img src={css} alt="" className="w-32 h-32" />
+            <img src={css} alt="" className="w-24 h-24" />
             <h3>CSS</h3>
           </div>
           <div className="flex flex-col justify-center text-center p-3 gap-2">
-            <img src={javascript} alt="" className="w-32 h-32" />
+            <img src={javascript} alt="" className="w-24 h-24" />
             <h3>JavaScript</h3>
           </div>
           <div className="flex flex-col justify-center text-center p-3 gap-2">
-            <img src={react} alt="" className="w-32 h-32" />
+            <img src={react} alt="" className="w-24 h-24" />
             <h3>React.js</h3>
           </div>
           <div className="flex flex-col justify-center text-center p-3 gap-2">
-            <img src={Nodejs} alt="" className="w-32 h-32" />
+            <img src={Nodejs} alt="" className="w-24 h-24" />
             <h3>Node.js</h3>
           </div>
           <div className="flex flex-col justify-center text-center p-3 gap-2">
-            <img src={MongoDB} alt="" className="w-32 h-32" />
+            <img src={MongoDB} alt="" className="w-24 h-24" />
             <h3>MongoDB</h3>
           </div>
           <div className="flex flex-col justify-center text-center p-3 gap-2">
-            <img src={Tailwincss} alt="" className="w-32 h-32" />
+            <img src={Tailwincss} alt="" className="w-24 h-24" />
             <h3>TailwindCSS</h3>
           </div>
           <div className="flex flex-col justify-center text-center p-3 gap-2">
-            <img src={Sass} alt="" className="w-32 h-32" />
+            <img src={Sass} alt="" className="w-24 h-24" />
             <h3>Sass</h3>
           </div>
           <div className="flex flex-col justify-center text-center p-3 gap-2">
-            <img src={cplus} alt="" className="w-32 h-32" />
+            <img src={cplus} alt="" className="w-24 h-24" />
             <h3>C++</h3>
           </div>
         </div>
