@@ -6,14 +6,9 @@ function Project() {
   console.log(projectdata);
   return (
     <div className="text-white lg:flex justify-evenly items-center flex-wrap">
-      
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-      
+      {projectdata.map((project) => (
+        <ProjectCard key={project.id} project={project} />
+      ))}
     </div>
   );
 }
