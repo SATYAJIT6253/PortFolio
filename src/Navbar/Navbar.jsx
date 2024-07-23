@@ -30,28 +30,28 @@ function Navbar() {
         <NavLink
           to="/"
           style={{ textDecoration: "none" }}
-          className="text-xl  text-white px-2 py-2  hover:border border-red-400 rounded-lg"
+          className="text-xl  text-white px-2 py-2  hover:shadow-xl hover:shadow-purple-600 rounded-lg"
         >
           Home
         </NavLink>
         <NavLink
           to="/about"
           style={{ textDecoration: "none" }}
-          className="text-xl  text-white px-2 py-2  hover:border border-red-400 rounded-lg"
+          className="text-xl  text-white px-2 py-2  hover:shadow-xl hover:shadow-purple-600 rounded-lg"
         >
           About Me
         </NavLink>
         <NavLink
           to="/project"
           style={{ textDecoration: "none" }}
-          className="text-xl  text-white px-2 py-2  hover:border border-red-400 rounded-lg"
+          className="text-xl  text-white px-2 py-2  hover:shadow-xl hover:shadow-purple-600 rounded-lg"
         >
           Projects
         </NavLink>
         <NavLink
           to="/resume"
           style={{ textDecoration: "none" }}
-          className="text-xl  text-white px-2 py-2  hover:border border-red-400 rounded-lg"
+          className="text-xl  text-white px-2 py-2  hover:shadow-xl hover:shadow-purple-600 rounded-lg"
         >
           Resume
         </NavLink>
@@ -82,17 +82,17 @@ function Navbar() {
               <a
                 href=""
                 id="brand"
-                className="flex gap-2 items-center"
+                className="flex gap-2 items-center hover:shadow-xl hover:shadow-purple-600"
                 onClick={clickhandlere}
               >
                 <img
                   src={Logo}
                   alt=""
-                  className="object-cover max-w-14 max-h-14 mt-6 ml-8"
+                  className="object-cover max-w-14 max-h-14 mt-6 ml-8 hover:shadow-xl hover:shadow-purple-600"
                 />
               </a>
               <button
-                className="text-white w-full flex items-end justify-end mr-6"
+                className="text-white w-full flex items-end justify-end mr-6 hover:shadow-xl hover:shadow-purple-600"
                 onClick={MenuHandeler}
               >
                 <RxCross2 className="text-white w-14 h-12 px-2" />
@@ -102,7 +102,7 @@ function Navbar() {
               <NavLink
                 to="/"
                 style={{ textDecoration: "none" }}
-                className="text-xl  text-white px-6 py-4  hover:border border-red-400 rounded-lg"
+                className="text-xl  text-white px-6 py-4  rounded-lg hover:shadow-xl hover:shadow-purple-600"
                 onClick={MenuHandeler}
               >
                 Home
@@ -110,7 +110,7 @@ function Navbar() {
               <NavLink
                 to="/about"
                 style={{ textDecoration: "none" }}
-                className="text-xl  text-white px-6 py-4  hover:border border-red-400 rounded-lg"
+                className="text-xl  text-white px-6 py-4   rounded-lg hover:shadow-xl hover:shadow-purple-600"
                 onClick={MenuHandeler}
               >
                 About Me
@@ -118,7 +118,7 @@ function Navbar() {
               <NavLink
                 to="/project"
                 style={{ textDecoration: "none" }}
-                className="text-xl  text-white px-6 py-4  hover:border border-red-400 rounded-lg"
+                className="text-xl  text-white px-6 py-4   rounded-lg hover:shadow-xl hover:shadow-purple-600"
                 onClick={MenuHandeler}
               >
                 Projects
@@ -126,7 +126,7 @@ function Navbar() {
               <NavLink
                 to="/resume"
                 style={{ textDecoration: "none" }}
-                className="text-xl  text-white px-6 py-4  hover:border border-red-400 rounded-lg"
+                className="text-xl  text-white px-6 py-4   rounded-lg hover:shadow-xl hover:shadow-purple-600"
                 onClick={MenuHandeler}
               >
                 Resume

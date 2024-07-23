@@ -19,10 +19,9 @@ function About() {
             <span className="text-4xl text-pink-400">A</span>bout{" "}
             <span className="text-4xl text-purple-900">M</span>yself
           </h1>
-          <div className="flex flex-col text-xl gap-4">
+          <div className="flex flex-col text-lg gap-4">
             <h3>
-            Hello! I'm <span className="text-pink-500">Satyajit Sahoo a pre-final year student pursuing 
-            Civil Engineering in NIT,Rourkela,Odisha </span>. 
+            Hello! I'm <span className="text-pink-500"> Satyajit Sahoo, a pre-final year student pursuing civil engineering at NIT, Rourkela, Odisha.</span>
             </h3>
             <h3>
             I solved over <span className="text-pink-500">700+ problems on LeetCode, achieving a maximum rating of 1708</span>. 
@@ -50,7 +49,7 @@ function About() {
         </div>
       </div>
       {/* skill subsection */}
-      <div className="flex flex-col  mt-7  gap-4 mx-5 justify-center items-center lg:mx-60">
+      <div className="flex flex-col  mt-7  gap-4 m-7 justify-center items-center lg:mx-60">
         <h1 className="text-2xl text-center">
           <span className="text-4xl text-red-700">M</span>y{" "}
           <span className="text-4xl text-red-500">T</span>ech
@@ -58,41 +57,41 @@ function About() {
         </h1>
         <div className="flex flex-wrap justify-evenly items-center gap-4 lg:justify-centre lg:w-5/6">
           <div
-            className="flex flex-col justify-center text-center p-3 gap-2
-            shadow-cyan-500/50"
+            className="flex flex-col justify-center text-center px-3 gap-2
+            hover:shadow-xl hover:shadow-pink-600"
           >
             <img src={html} alt="" className="w-24 h-24" />
             <h3>HTML</h3>
           </div>
-          <div className="flex flex-col justify-center text-center p-3 gap-2">
+          <div className="flex flex-col justify-center text-center p-3 gap-2 hover:shadow-xl hover:shadow-pink-600">
             <img src={css} alt="" className="w-24 h-24" />
             <h3>CSS</h3>
           </div>
-          <div className="flex flex-col justify-center text-center p-3 gap-2">
+          <div className="flex flex-col justify-center text-center p-3 gap-2 hover:shadow-xl hover:shadow-pink-600">
             <img src={javascript} alt="" className="w-24 h-24" />
             <h3>JavaScript</h3>
           </div>
-          <div className="flex flex-col justify-center text-center p-3 gap-2">
+          <div className="flex flex-col justify-center text-center p-3 gap-2 hover:shadow-xl hover:shadow-pink-600">
             <img src={react} alt="" className="w-24 h-24" />
             <h3>React.js</h3>
           </div>
-          <div className="flex flex-col justify-center text-center p-3 gap-2">
+          <div className="flex flex-col justify-center text-center p-3 gap-2 hover:shadow-xl hover:shadow-pink-600">
             <img src={Nodejs} alt="" className="w-24 h-24" />
             <h3>Node.js</h3>
           </div>
-          <div className="flex flex-col justify-center text-center p-3 gap-2">
+          <div className="flex flex-col justify-center text-center p-3 gap-2 hover:shadow-xl hover:shadow-pink-600">
             <img src={MongoDB} alt="" className="w-24 h-24" />
             <h3>MongoDB</h3>
           </div>
-          <div className="flex flex-col justify-center text-center p-3 gap-2">
+          <div className="flex flex-col justify-center text-center p-3 gap-2 hover:shadow-xl hover:shadow-pink-600">
             <img src={Tailwincss} alt="" className="w-24 h-24" />
             <h3>TailwindCSS</h3>
           </div>
-          <div className="flex flex-col justify-center text-center p-3 gap-2">
+          <div className="flex flex-col justify-center text-center p-3 gap-2 hover:shadow-xl hover:shadow-pink-600">
             <img src={Sass} alt="" className="w-24 h-24" />
             <h3>Sass</h3>
           </div>
-          <div className="flex flex-col justify-center text-center p-3 gap-2">
+          <div className="flex flex-col justify-center text-center p-3 gap-2 hover:shadow-xl hover:shadow-pink-600">
             <img src={cplus} alt="" className="w-24 h-24" />
             <h3>C++</h3>
           </div>

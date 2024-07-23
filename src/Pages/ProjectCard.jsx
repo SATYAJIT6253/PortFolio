@@ -8,10 +8,10 @@ function ProjectCard({ project }) {
   }
   return (
     <div
-      className="p-8 flex flex-col h-fit justify-center items-center gap-5 mx-10 mt-10 w-lg rounded-3xl
+      className="flex flex-col h-fit justify-center items-center gap-5 mx-10 mt-10 w-lg rounded-3xl
      bg-gradient-to-r from-sky-950 to-black hover:cursor-pointer lg:w-2/5 md:p-4"
     >
-      <img src={project.image} alt="" className="w-11/12 mx-5 pt-5 h-72" />
+      <img src={project.image} alt="" className="w-11/12 mx-5 pt-5 h-60" />
       <h1 className="text-2xl flex justify-center">{project.name}</h1>
       <p
         className="mx-5 font-sans
@@ -27,7 +27,7 @@ function ProjectCard({ project }) {
           Deploy Link
         </a>
       </button>
-      <button className=" bg-blue-400 w-40 h-10 rounded-full">
+      <button className=" bg-blue-400 w-40 h-10 rounded-full mb-4">
         <a href={project.githublink} target="_blank">
           Github Link
         </a>
