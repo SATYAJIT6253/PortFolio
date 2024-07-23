@@ -9,7 +9,7 @@ function ProjectCard({ project }) {
   return (
     <div
       className="flex flex-col h-fit justify-center items-center gap-5 mx-10 mt-10 w-lg rounded-3xl
-     bg-gradient-to-r from-sky-950 to-black hover:cursor-pointer lg:w-2/5 md:p-4"
+     bg-gradient-to-r from-sky-950 to-black hover:cursor-pointer lg:w-2/5 md:p-8"
     >
       <img src={project.image} alt="" className="w-11/12 mx-5 pt-5 h-60" />
       <h1 className="text-2xl flex justify-center">{project.name}</h1>
