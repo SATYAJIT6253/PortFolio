@@ -16,7 +16,6 @@ function ProjectCard({ project }) {
      bg-gradient-to-r from-sky-950 to-black hover:cursor-pointer lg:w-2/5 md:p-8
      ransition ease-in-out duration-300 delay-10 hover:translate-y-1 hover:scale-105
      "
-      onClick={clickhandeler}
     >
       <img src={project.image} alt="" className="w-11/12 mx-5 pt-5 h-60" />
       <h1 className="text-2xl flex justify-center">{project.name}</h1>
