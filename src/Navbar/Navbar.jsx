@@ -30,28 +30,32 @@ function Navbar() {
         <NavLink
           to="/"
           style={{ textDecoration: "none" }}
-          className="text-xl  text-white px-2 py-2  hover:shadow-xl hover:shadow-purple-600 rounded-lg"
+          className="text-xl  text-white px-2 py-2  hover:shadow-xl hover:shadow-purple-600 rounded-lg 
+          transition ease-in-out duration-300 delay-10 hover:-translate-y-1 hover:scale-110"
         >
           Home
         </NavLink>
         <NavLink
           to="/about"
           style={{ textDecoration: "none" }}
-          className="text-xl  text-white px-2 py-2  hover:shadow-xl hover:shadow-purple-600 rounded-lg"
+          className="text-xl  text-white px-2 py-2  hover:shadow-xl hover:shadow-purple-600 rounded-lg
+          transition ease-in-out duration-300 delay-10 hover:-translate-y-1 hover:scale-110"
         >
           About Me
         </NavLink>
         <NavLink
           to="/project"
           style={{ textDecoration: "none" }}
-          className="text-xl  text-white px-2 py-2  hover:shadow-xl hover:shadow-purple-600 rounded-lg"
+          className="text-xl  text-white px-2 py-2  hover:shadow-xl hover:shadow-purple-600 rounded-lg
+          transition ease-in-out duration-300 delay-10 hover:-translate-y-1 hover:scale-110"
         >
           Projects
         </NavLink>
         <NavLink
           to="/resume"
           style={{ textDecoration: "none" }}
-          className="text-xl  text-white px-2 py-2  hover:shadow-xl hover:shadow-purple-600 rounded-lg"
+          className="text-xl  text-white px-2 py-2  hover:shadow-xl hover:shadow-purple-600 rounded-lg
+          transition ease-in-out duration-300 delay-10 hover:-translate-y-1 hover:scale-110"
         >
           Resume
         </NavLink>
