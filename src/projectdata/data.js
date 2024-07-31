@@ -18,7 +18,7 @@ const data =[
     {
         id:3,
         name:'MeaningMaaper',
-        info:'The goal is to determine if two sentences are semantically equivalent. This is a common problem in NLP known as sentence similarity or semantic textual similarity (STS). For solving this problem, I chose the Quora Question Pairs dataset that is available in Kagle.Then I clean and preprocess, for example, the text. Remove punctuation, tokenize the sentences, and remove the stop word to make it suitable for modelling. I used the Random Forest Classifier model that is available on Skitlearn for prediction and got an accuracy score of 75 percent. I use Streamlit for developing the user interface.',
+        info:'The goal is to determine if two sentences are semantically equivalent. This is a common problem in NLP known as sentence similarity or semantic textual similarity (STS). To solve this problem, I used the Quora Question Pairs dataset that is available in Kagle. Then I clean and preprocess, for example, the text. Remove punctuation, tokenize the sentences, and remove the stop word to make it suitable for modeling. I used the Random Forest Classifier model that is available on Skitlearn for prediction and got an accuracy score of 75 percent. I use Streamlit for developing the user interface.',
         image:'https://res.cloudinary.com/ddcufe6ae/image/upload/v1722091436/Porfolio/Screenshot_2024-07-27_201334_oegw5w.png',
         link : 'https://duplicate-question-pairs-cxik.onrender.com/',
         githublink : 'https://github.com/SATYAJIT6253/MeaningMapper',

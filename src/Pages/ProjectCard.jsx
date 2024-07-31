@@ -14,7 +14,7 @@ function ProjectCard({ project }) {
     <div
       className="flex flex-col h-fit justify-center items-center gap-5 mx-10 mt-10 w-lg rounded-3xl
      bg-gradient-to-r from-sky-950 to-black hover:cursor-pointer lg:w-2/5 md:p-8
-     ransition ease-in-out duration-300 delay-10 hover:translate-y-1 hover:scale-105
+     ransition ease-in-out duration-300 delay-10 hover:translate-y-1
      "
     >
       <img src={project.image} alt="" className="w-11/12 mx-5 pt-5 h-60" />
